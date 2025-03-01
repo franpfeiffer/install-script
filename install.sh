@@ -1,7 +1,14 @@
 #!/bin/bash
 
+echo "WELL CUM! digo digo WELCOME..."
+
+echo "installing basic things"
 sudo pacman -Syu --noconfirm
 sudo pacman -S --noconfirm base-devel firefox
+
+echo "creating important folders"
+mkdir -p "$HOME/work"
+mkdir -p "$HOME/personal"
 
 echo "installing yay..."
 git clone https://aur.archlinux.org/yay.git
