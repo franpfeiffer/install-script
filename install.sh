@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo pacman -Syu --noconfirm
-sudo pacman -S --noconfirm base-devel git firefox
+sudo pacman -S --noconfirm base-devel firefox
 
 echo "installing yay..."
 git clone https://aur.archlinux.org/yay.git
